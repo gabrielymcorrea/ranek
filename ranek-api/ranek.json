@@ -1,0 +1,68 @@
+{
+  "usuario": [
+    {
+      "id": "gabi@gmail.com",
+      "email": "gabi@gmail.com",
+      "nome": "Gabi Maciel",
+      "senha": "123",
+      "rua": "Rua Ali Perto",
+      "cep": "12345678",
+      "numero": "25",
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "maria@gmail.com",
+      "nome": "maria",
+      "email": "maria@gmail.com",
+      "senha": "1234",
+      "cep": "14406283",
+      "rua": "Rua Geraldo Vítor Romualdo",
+      "numero": "333",
+      "bairro": "Jardim Zelinda",
+      "cidade": "Franca",
+      "estado": "SP"
+    },
+    {
+      "id": "jose@gmail.com",
+      "nome": "jose",
+      "email": "jose@gmail.com",
+      "senha": "1234",
+      "cep": "14406288",
+      "rua": "Rua Quatro",
+      "numero": "33",
+      "bairro": "Jardim Zelinda",
+      "cidade": "Franca",
+      "estado": "SP"
+    }
+  ],
+  "produto": [
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "gabi@gmail.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "gabi@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "gabi@gmail.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    }
+  ]
+}
