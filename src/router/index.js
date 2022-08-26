@@ -34,7 +34,7 @@ const routes = [
     children: [
       {
         path: "",
-        name: "usuario",
+        name: "UsuarioView",
         component: UsuarioProdutos
       },
       {

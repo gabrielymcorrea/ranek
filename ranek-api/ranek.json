@@ -1,15 +1,62 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "carla@gmail.com",
+      "vendedor_id": "gabi@gmail.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "gabi@gmail.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "14406288",
+        "rua": "Rua Quatro",
+        "numero": "33",
+        "bairro": "Jardim Zelinda",
+        "cidade": "Franca",
+        "estado": "SP"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "maria@gmail.com",
+      "vendedor_id": "gabi@gmail.com",
+      "produto": {
+        "id": "smartphone",
+        "nome": "Smartphone",
+        "usuario_id": "gabi@gmail.com",
+        "preco": "1999",
+        "vendido": "false",
+        "descricao": "Esse é um novo smartphone.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "14406283",
+        "rua": "Rua Geraldo Vítor Romualdo",
+        "numero": "333",
+        "bairro": "Jardim Zelinda",
+        "cidade": "Franca",
+        "estado": "SP"
+      },
+      "id": 2
+    }
+  ],
   "usuario": [
     {
       "id": "gabi@gmail.com",
-      "email": "gabi@gmail.com",
       "nome": "Gabi Maciel",
+      "email": "gabi@gmail.com",
       "senha": "123",
-      "rua": "Rua Ali Perto",
       "cep": "12345678",
+      "rua": "Rua Ali Perto",
       "numero": "25",
-      "estado": "RJ",
-      "cidade": "Rio de Janeiro"
+      "bairro": "teste",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
     },
     {
       "id": "maria@gmail.com",
@@ -34,9 +81,48 @@
       "bairro": "Jardim Zelinda",
       "cidade": "Franca",
       "estado": "SP"
+    },
+    {
+      "id": "carla@gmail.com",
+      "nome": "carla",
+      "email": "carla@gmail.com",
+      "senha": "123",
+      "cep": "14406288",
+      "rua": "Rua Quatro",
+      "numero": "33",
+      "bairro": "Jardim Zelinda",
+      "cidade": "Franca",
+      "estado": "SP"
     }
   ],
   "produto": [
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "gabi@gmail.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "gabi@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "gabi@gmail.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
     {
       "id": "notebook",
       "nome": "Notebook",
